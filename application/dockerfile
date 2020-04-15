@@ -1,2 +1,2 @@
-FROM dockerissues:latest
+FROM ruby-gem-base-image:latest
 CMD ["gem", "list"]
